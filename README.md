@@ -57,7 +57,7 @@ The plugin is part of the main kiln module.
 ## Setup
 
 ```bash
-cd examples/bob-plugin
+cd kiln-bob-plugin
 cp .env.example .env
 make setup
 make run
@@ -68,7 +68,7 @@ Or step by step: `make help` to see all commands.
 ## Project Structure
 
 ```
-bob-plugin/
+kiln-bob-plugin/
   gen/main.go          runs bob + kiln plugin (the key file)
   cmd/server/main.go   generated server entry point (write-once)
   kiln.yaml            kiln config
